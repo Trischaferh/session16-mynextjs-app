@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import api from "@/lib/api";
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 async function getProject(id) {
   try {
